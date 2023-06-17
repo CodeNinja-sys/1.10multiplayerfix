@@ -1,0 +1,25 @@
+/*
+ * Decompiled with CFR 0.150.
+ */
+public class bke {
+    private final float[] a;
+    private int b;
+
+    public bke(float[] arrf) {
+        this.a = arrf;
+        this.b = 1;
+    }
+
+    protected void a() {
+        ++this.b;
+    }
+
+    public float[] b() {
+        return this.a;
+    }
+
+    public int c() {
+        return this.b;
+    }
+}
+

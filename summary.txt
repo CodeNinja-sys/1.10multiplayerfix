@@ -1,0 +1,468 @@
+Summary for /www/javadecompilers/app/public/data/17.06.23/4ab4bf3c22ccc23f951085768b6a13ad/crackt.jar
+Decompiled with CFR 0.150
+
+
+net.minecraft.g.c.c
+----------------------------
+
+a(net.minecraft.u.b.b )
+  Unable to fully structure code
+
+
+net.minecraft.client.r
+----------------------------
+
+a()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Started 3 blocks at once
+aB()
+  Unable to fully structure code
+
+
+net.minecraft.client.c.h
+----------------------------
+
+a(net.minecraft.client.c.l net.minecraft.u.bp )
+  Loose catch block
+
+
+net.minecraft.client.k.dn
+----------------------------
+
+a(int int boolean )
+  Unable to fully structure code
+
+
+net.minecraft.client.g.a.a
+----------------------------
+
+a(net.minecraft.client.f.s )
+  Unable to fully structure code
+
+
+net.minecraft.n.a.b
+----------------------------
+
+f(net.minecraft.n.az java.lang.String[] int net.minecraft.c.a )
+  Unable to fully structure code
+g(net.minecraft.n.az java.lang.String[] int net.minecraft.c.a )
+  Unable to fully structure code
+
+
+net.minecraft.w.f.j
+----------------------------
+
+a(net.minecraft.w.a.b net.minecraft.u.b.s net.minecraft.m.cu net.minecraft.u.ah )
+  Unable to fully structure code
+
+
+net.minecraft.m.a.g
+----------------------------
+
+a(net.minecraft.m.cu java.lang.Object[] )
+  Unable to fully structure code
+
+
+net.minecraft.m.a.z
+----------------------------
+
+c(net.minecraft.h.af )
+  Unable to fully structure code
+
+
+net.minecraft.i.a
+----------------------------
+
+a(net.minecraft.u.b.b )
+  Unable to fully structure code
+
+
+net.minecraft.c.a
+----------------------------
+
+run()
+  Unable to fully structure code
+
+
+net.minecraft.c.b.h
+----------------------------
+
+b()
+  Loose catch block
+c()
+  Loose catch block
+
+
+net.minecraft.u.ap
+----------------------------
+
+run()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [1[TRYBLOCK]], but top level block is 10[DOLOOP]
+
+
+net.minecraft.u.b.l
+----------------------------
+
+a()
+  Unable to fully structure code
+
+
+net.minecraft.b.a
+----------------------------
+
+b()
+  Unable to fully structure code
+
+
+agj
+----------------------------
+
+<init>()
+  Loose catch block
+
+
+dam
+----------------------------
+
+b(akx )
+  Loose catch block
+
+
+bro
+----------------------------
+
+a(qe bpx )
+  Loose catch block
+
+
+bas
+----------------------------
+
+b()
+  Loose catch block
+c()
+  Loose catch block
+
+
+bml
+----------------------------
+
+run()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [1[TRYBLOCK]], but top level block is 10[WHILELOOP]
+
+
+bdi
+----------------------------
+
+a(bdl amj bhl bqp )
+  Unable to fully structure code
+
+
+net.java.games.input.da
+----------------------------
+
+a(net.java.games.input.ar )
+  Unable to fully structure code
+
+
+org.apache.commons.a.c.i
+----------------------------
+
+b(java.lang.String org.apache.commons.a.c.j int )
+  Unable to fully structure code
+a(java.lang.String org.apache.commons.a.c.j int boolean )
+  Unable to fully structure code
+e(java.lang.String org.apache.commons.a.c.j int )
+  Unable to fully structure code
+b(java.lang.String org.apache.commons.a.c.j int boolean )
+  Unable to fully structure code
+c(java.lang.String org.apache.commons.a.c.j int boolean )
+  Unable to fully structure code
+d(java.lang.String org.apache.commons.a.c.j int boolean )
+  Unable to fully structure code
+j(java.lang.String org.apache.commons.a.c.j int )
+  Unable to fully structure code
+
+
+org.apache.commons.compress.archivers.e
+----------------------------
+
+a(java.io.InputStream )
+  Loose catch block
+
+
+org.apache.commons.compress.b.a.g
+----------------------------
+
+a(int[] byte[] int )
+  Unable to fully structure code
+
+
+org.apache.commons.b.b.o
+----------------------------
+
+accept(java.io.File )
+  Loose catch block
+
+
+org.apache.commons.c.h.b
+----------------------------
+
+a(java.lang.String java.text.ParsePosition )
+  Unable to fully structure code
+
+
+org.apache.logging.log4j.core.a.a.c.b.d
+----------------------------
+
+a(java.lang.String java.lang.String java.lang.String java.lang.String java.lang.String java.lang.String java.lang.String java.lang.String java.lang.String java.lang.String )
+  Unable to fully structure code
+
+
+org.apache.logging.log4j.core.config.plugins.n
+----------------------------
+
+b(org.apache.logging.log4j.core.config.plugins.u java.lang.String java.io.File )
+  Loose catch block
+
+
+org.apache.logging.log4j.core.net.a.h
+----------------------------
+
+a()
+  Loose catch block
+
+
+org.lwjgl.opengl.dt
+----------------------------
+
+g(java.util.Set )
+  Unable to fully structure code
+
+
+org.lwjgl.opengl.LinuxCanvasImplementation
+----------------------------
+
+a(int org.lwjgl.opengl.PixelFormat )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [1[TRYBLOCK]], but top level block is 3[TRYBLOCK]
+
+
+org.lwjgl.opengl.LinuxDisplay
+----------------------------
+
+c()
+  Loose catch block
+
+
+org.lwjgl.util.d.j
+----------------------------
+
+a(java.io.InputStream )
+  Loose catch block
+
+
+org.lwjgl.util.d.k
+----------------------------
+
+a(org.objectweb.asm.tree.InsnList int java.util.Map org.objectweb.asm.tree.VarInsnNode org.lwjgl.util.d.p int )
+  Unable to fully structure code
+
+
+e.a.a.a
+----------------------------
+
+h()
+  Unable to fully structure code
+
+
+com.a.a.b.ej
+----------------------------
+
+b(byte[] int int )
+  Unable to fully structure code
+
+
+com.a.a.n.a.cq
+----------------------------
+
+run()
+  Loose catch block
+
+
+com.a.a.n.a.cs
+----------------------------
+
+a(int java.util.concurrent.Future )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Started 2 blocks at once
+
+
+com.a.a.n.a.ds
+----------------------------
+
+b(com.a.a.n.a.dt long java.util.concurrent.TimeUnit )
+  Loose catch block
+
+
+com.a.a.n.a.du
+----------------------------
+
+a(com.a.a.n.a.dq java.util.Collection boolean long )
+  Unable to fully structure code
+
+
+com.ibm.icu.a.dt
+----------------------------
+
+a(java.lang.CharSequence int int boolean boolean com.ibm.icu.a.dx )
+  Unable to fully structure code
+
+
+com.ibm.icu.a.eo
+----------------------------
+
+b(java.lang.String java.lang.String java.lang.ClassLoader boolean )
+  Loose catch block
+
+
+com.ibm.icu.a.iz
+----------------------------
+
+a(java.lang.String )
+  Unable to fully structure code
+
+
+com.ibm.icu.d.dm
+----------------------------
+
+a(java.lang.String java.lang.String java.lang.StringBuffer boolean )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Started 2 blocks at once
+
+
+com.ibm.icu.d.iz
+----------------------------
+
+a(java.lang.String com.ibm.icu.util.n java.text.ParsePosition )
+  Unable to fully structure code
+
+
+com.ibm.icu.d.jz
+----------------------------
+
+a(java.text.CharacterIterator int int boolean int java.util.Stack )
+  Unable to fully structure code
+
+
+com.ibm.icu.d.lf
+----------------------------
+
+a(com.ibm.icu.a.ev com.ibm.icu.d.jy java.lang.StringBuffer int )
+  Unable to fully structure code
+a(java.lang.String java.lang.String com.ibm.icu.d.jy )
+  Unable to fully structure code
+
+
+com.b.b.g
+----------------------------
+
+a(int int int int float[] float[] float[] float[] float[] float[] int )
+  Unable to fully structure code
+b(int int int int float[] float[] float[] float[] float[] float[] int )
+  Unable to fully structure code
+
+
+io.netty.channel.epoll.f
+----------------------------
+
+j()
+  Unable to fully structure code
+
+
+io.netty.c.a.d
+----------------------------
+
+a_(io.netty.channel.bd java.lang.Object )
+  Loose catch block
+
+
+io.netty.c.a.c.t
+----------------------------
+
+a(io.netty.channel.bd io.netty.b.g java.util.List )
+  Unable to fully structure code
+
+
+io.netty.c.a.u
+----------------------------
+
+a(io.netty.channel.bd java.lang.Object io.netty.channel.bw )
+  Unable to fully structure code
+
+
+io.netty.c.a.w
+----------------------------
+
+c(io.netty.channel.bd io.netty.b.g java.util.List )
+  Unable to fully structure code
+
+
+io.netty.c.c.q
+----------------------------
+
+a(io.netty.channel.bd boolean )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Invalid source, tried to remove [0] lbl48 : GotoStatement: goto lbl4;
+
+from [] lbl3 : TryStatement: try { 0[TRYBLOCK]
+
+but was not a source.
+
+
+io.netty.util.b.l
+----------------------------
+
+a(long boolean )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [14[DOLOOP]], but top level block is 7[TRYBLOCK]
+
+
+io.netty.util.b.ai
+----------------------------
+
+run()
+  Unable to fully structure code
+
+
+io.netty.util.c.a.br
+----------------------------
+
+i()
+  Unable to fully structure code
+j()
+  Unable to fully structure code
+
+
+io.netty.util.c.a.bt
+----------------------------
+
+c(io.netty.util.c.a.cb io.netty.util.c.a.cc )
+  Unable to fully structure code
+a(boolean boolean )
+  Unable to fully structure code
+
+
+io.netty.util.c.ag
+----------------------------
+
+a()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [2[DOLOOP]], but top level block is 0[TRYBLOCK]
+
+
+io.netty.util.o
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+io.netty.util.aj
+----------------------------
+
+run()
+  Unable to fully structure code

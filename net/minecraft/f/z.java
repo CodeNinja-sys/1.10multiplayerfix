@@ -1,0 +1,32 @@
+/*
+ * Decompiled with CFR 0.150.
+ */
+package net.minecraft.f;
+
+import net.minecraft.f.ap;
+import net.minecraft.g.c.b;
+import net.minecraft.k.p;
+
+class z
+implements p {
+    final /* synthetic */ ap a;
+
+    z(ap ap2) {
+        this.a = ap2;
+    }
+
+    public String a() {
+        b b2 = this.a.k.n(this.a.l);
+        int n2 = b2.c().b(b2);
+        if (n2 < 0) {
+            return "Unknown? (Got " + n2 + ")";
+        }
+        String string = String.format("%4s", Integer.toBinaryString(n2)).replace(" ", "0");
+        return String.format("%1$d / 0x%1$X / 0b%2$s", n2, string);
+    }
+
+    public /* synthetic */ Object call() {
+        return this.a();
+    }
+}
+

@@ -1,0 +1,207 @@
+/*
+ * Decompiled with CFR 0.150.
+ */
+public class cpr
+extends axg {
+    private final abd a;
+    private final abd b;
+    private final abd c;
+    private final abd d;
+    private final abd e;
+    private final abd f;
+    private final abd g;
+    private final abd h;
+    private final abd i;
+    private final abd j;
+    private final abd k;
+    private final abd r;
+    private float s;
+
+    public cpr(float f2) {
+        this.p = 256;
+        this.q = 256;
+        this.a("body.body", 0, 0);
+        this.a("wing.skin", -56, 88);
+        this.a("wingtip.skin", -56, 144);
+        this.a("rearleg.main", 0, 0);
+        this.a("rearfoot.main", 112, 0);
+        this.a("rearlegtip.main", 196, 0);
+        this.a("head.upperhead", 112, 30);
+        this.a("wing.bone", 112, 88);
+        this.a("head.upperlip", 176, 44);
+        this.a("jaw.jaw", 176, 65);
+        this.a("frontleg.main", 112, 104);
+        this.a("wingtip.bone", 112, 136);
+        this.a("frontfoot.main", 144, 104);
+        this.a("neck.box", 192, 104);
+        this.a("frontlegtip.main", 226, 138);
+        this.a("body.scale", 220, 53);
+        this.a("head.scale", 0, 0);
+        this.a("neck.scale", 48, 0);
+        this.a("head.nostril", 112, 0);
+        float f3 = -16.0f;
+        this.a = new abd(this, "head");
+        this.a.a("upperlip", -6.0f, -1.0f, -24.0f, 12, 5, 16);
+        this.a.a("upperhead", -8.0f, -8.0f, -10.0f, 16, 16, 16);
+        this.a.i = true;
+        this.a.a("scale", -5.0f, -12.0f, -4.0f, 2, 4, 6);
+        this.a.a("nostril", -5.0f, -3.0f, -22.0f, 2, 2, 4);
+        this.a.i = false;
+        this.a.a("scale", 3.0f, -12.0f, -4.0f, 2, 4, 6);
+        this.a.a("nostril", 3.0f, -3.0f, -22.0f, 2, 2, 4);
+        this.c = new abd(this, "jaw");
+        this.c.a(0.0f, 4.0f, -8.0f);
+        this.c.a("jaw", -6.0f, 0.0f, -16.0f, 12, 4, 16);
+        this.a.a(this.c);
+        this.b = new abd(this, "neck");
+        this.b.a("box", -5.0f, -5.0f, -5.0f, 10, 10, 10);
+        this.b.a("scale", -1.0f, -9.0f, -3.0f, 2, 4, 6);
+        this.d = new abd(this, "body");
+        this.d.a(0.0f, 4.0f, 8.0f);
+        this.d.a("body", -12.0f, 0.0f, -16.0f, 24, 24, 64);
+        this.d.a("scale", -1.0f, -6.0f, -10.0f, 2, 6, 12);
+        this.d.a("scale", -1.0f, -6.0f, 10.0f, 2, 6, 12);
+        this.d.a("scale", -1.0f, -6.0f, 30.0f, 2, 6, 12);
+        this.k = new abd(this, "wing");
+        this.k.a(-12.0f, 5.0f, 2.0f);
+        this.k.a("bone", -56.0f, -4.0f, -4.0f, 56, 8, 8);
+        this.k.a("skin", -56.0f, 0.0f, 2.0f, 56, 0, 56);
+        this.r = new abd(this, "wingtip");
+        this.r.a(-56.0f, 0.0f, 0.0f);
+        this.r.a("bone", -56.0f, -2.0f, -2.0f, 56, 4, 4);
+        this.r.a("skin", -56.0f, 0.0f, 2.0f, 56, 0, 56);
+        this.k.a(this.r);
+        this.f = new abd(this, "frontleg");
+        this.f.a(-12.0f, 20.0f, 2.0f);
+        this.f.a("main", -4.0f, -4.0f, -4.0f, 8, 24, 8);
+        this.h = new abd(this, "frontlegtip");
+        this.h.a(0.0f, 20.0f, -1.0f);
+        this.h.a("main", -3.0f, -1.0f, -3.0f, 6, 24, 6);
+        this.f.a(this.h);
+        this.j = new abd(this, "frontfoot");
+        this.j.a(0.0f, 23.0f, 0.0f);
+        this.j.a("main", -4.0f, 0.0f, -12.0f, 8, 4, 16);
+        this.h.a(this.j);
+        this.e = new abd(this, "rearleg");
+        this.e.a(-16.0f, 16.0f, 42.0f);
+        this.e.a("main", -8.0f, -4.0f, -8.0f, 16, 32, 16);
+        this.g = new abd(this, "rearlegtip");
+        this.g.a(0.0f, 32.0f, -4.0f);
+        this.g.a("main", -6.0f, -2.0f, 0.0f, 12, 32, 12);
+        this.e.a(this.g);
+        this.i = new abd(this, "rearfoot");
+        this.i.a(0.0f, 31.0f, 4.0f);
+        this.i.a("main", -9.0f, 0.0f, -20.0f, 18, 6, 24);
+        this.g.a(this.i);
+    }
+
+    @Override
+    public void a(bga bga2, float f2, float f3, float f4) {
+        this.s = f4;
+    }
+
+    @Override
+    public void a(cpk cpk2, float f2, float f3, float f4, float f5, float f6, float f7) {
+        float f8;
+        cja.D();
+        brd brd2 = (brd)cpk2;
+        float f9 = brd2.v + (brd2.w - brd2.v) * this.s;
+        this.c.f = (float)(Math.sin(f9 * ((float)Math.PI * 2)) + 1.0) * 0.2f;
+        float f10 = (float)(Math.sin(f9 * ((float)Math.PI * 2) - 1.0f) + 1.0);
+        f10 = (f10 * f10 + f10 * 2.0f) * 0.05f;
+        cja.c(0.0f, f10 - 2.0f, -3.0f);
+        cja.b(f10 * 2.0f, 1.0f, 0.0f, 0.0f);
+        float f11 = -30.0f;
+        float f12 = 0.0f;
+        float f13 = 1.5f;
+        double[] arrd = brd2.a(6, this.s);
+        float f14 = this.a(brd2.a(5, this.s)[0] - brd2.a(10, this.s)[0]);
+        float f15 = this.a(brd2.a(5, this.s)[0] + (double)(f14 / 2.0f));
+        float f16 = f9 * ((float)Math.PI * 2);
+        f11 = 20.0f;
+        float f17 = -12.0f;
+        for (int i2 = 0; i2 < 5; ++i2) {
+            double[] arrd2 = brd2.a(5 - i2, this.s);
+            f8 = (float)Math.cos((float)i2 * 0.45f + f16) * 0.15f;
+            this.b.g = this.a(arrd2[0] - arrd[0]) * ((float)Math.PI / 180) * 1.5f;
+            this.b.f = f8 + brd2.a(i2, arrd, arrd2) * ((float)Math.PI / 180) * 1.5f * 5.0f;
+            this.b.h = -this.a(arrd2[0] - (double)f15) * ((float)Math.PI / 180) * 1.5f;
+            this.b.d = f11;
+            this.b.e = f17;
+            this.b.c = f12;
+            f11 = (float)((double)f11 + Math.sin(this.b.f) * 10.0);
+            f17 = (float)((double)f17 - Math.cos(this.b.g) * Math.cos(this.b.f) * 10.0);
+            f12 = (float)((double)f12 - Math.sin(this.b.g) * Math.cos(this.b.f) * 10.0);
+            this.b.a(f7);
+        }
+        this.a.d = f11;
+        this.a.e = f17;
+        this.a.c = f12;
+        double[] arrd3 = brd2.a(0, this.s);
+        this.a.g = this.a(arrd3[0] - arrd[0]) * ((float)Math.PI / 180);
+        this.a.f = this.a(brd2.a(6, arrd, arrd3)) * ((float)Math.PI / 180) * 1.5f * 5.0f;
+        this.a.h = -this.a(arrd3[0] - (double)f15) * ((float)Math.PI / 180);
+        this.a.a(f7);
+        cja.D();
+        cja.c(0.0f, 1.0f, 0.0f);
+        cja.b(-f14 * 1.5f, 0.0f, 0.0f, 1.0f);
+        cja.c(0.0f, -1.0f, 0.0f);
+        this.d.h = 0.0f;
+        this.d.a(f7);
+        for (int i3 = 0; i3 < 2; ++i3) {
+            cja.p();
+            f8 = f9 * ((float)Math.PI * 2);
+            this.k.f = 0.125f - (float)Math.cos(f8) * 0.2f;
+            this.k.g = 0.25f;
+            this.k.h = (float)(Math.sin(f8) + 0.125) * 0.8f;
+            this.r.h = -((float)(Math.sin(f8 + 2.0f) + 0.5)) * 0.75f;
+            this.e.f = 1.0f + f10 * 0.1f;
+            this.g.f = 0.5f + f10 * 0.1f;
+            this.i.f = 0.75f + f10 * 0.1f;
+            this.f.f = 1.3f + f10 * 0.1f;
+            this.h.f = -0.5f - f10 * 0.1f;
+            this.j.f = 0.75f + f10 * 0.1f;
+            this.k.a(f7);
+            this.f.a(f7);
+            this.e.a(f7);
+            cja.b(-1.0f, 1.0f, 1.0f);
+            if (i3 != 0) continue;
+            cja.a(csw.a);
+        }
+        cja.E();
+        cja.a(csw.b);
+        cja.q();
+        float f18 = -((float)Math.sin(f9 * ((float)Math.PI * 2))) * 0.0f;
+        f16 = f9 * ((float)Math.PI * 2);
+        f11 = 10.0f;
+        f17 = 60.0f;
+        f12 = 0.0f;
+        arrd = brd2.a(11, this.s);
+        for (int i4 = 0; i4 < 12; ++i4) {
+            arrd3 = brd2.a(12 + i4, this.s);
+            f18 = (float)((double)f18 + Math.sin((float)i4 * 0.45f + f16) * (double)0.05f);
+            this.b.g = (this.a(arrd3[0] - arrd[0]) * 1.5f + 180.0f) * ((float)Math.PI / 180);
+            this.b.f = f18 + (float)(arrd3[1] - arrd[1]) * ((float)Math.PI / 180) * 1.5f * 5.0f;
+            this.b.h = this.a(arrd3[0] - (double)f15) * ((float)Math.PI / 180) * 1.5f;
+            this.b.d = f11;
+            this.b.e = f17;
+            this.b.c = f12;
+            f11 = (float)((double)f11 + Math.sin(this.b.f) * 10.0);
+            f17 = (float)((double)f17 - Math.cos(this.b.g) * Math.cos(this.b.f) * 10.0);
+            f12 = (float)((double)f12 - Math.sin(this.b.g) * Math.cos(this.b.f) * 10.0);
+            this.b.a(f7);
+        }
+        cja.E();
+    }
+
+    private float a(double d2) {
+        while (d2 >= 180.0) {
+            d2 -= 360.0;
+        }
+        while (d2 < -180.0) {
+            d2 += 360.0;
+        }
+        return (float)d2;
+    }
+}
+

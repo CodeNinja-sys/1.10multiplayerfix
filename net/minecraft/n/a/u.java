@@ -1,0 +1,41 @@
+/*
+ * Decompiled with CFR 0.150.
+ */
+package net.minecraft.n.a;
+
+import net.minecraft.c.a;
+import net.minecraft.n.aa;
+import net.minecraft.n.az;
+import net.minecraft.n.o;
+import net.minecraft.n.t;
+import net.minecraft.q.v;
+
+public class u
+extends aa {
+    @Override
+    public String a() {
+        return "save-off";
+    }
+
+    @Override
+    public String a(az az2) {
+        return "commands.save-off.usage";
+    }
+
+    @Override
+    public void a(a a2, az az2, String[] arrstring) {
+        boolean bl2 = false;
+        for (int i2 = 0; i2 < a2.d.length; ++i2) {
+            if (a2.d[i2] == null) continue;
+            v v2 = a2.d[i2];
+            if (v2.a) continue;
+            v2.a = true;
+            bl2 = true;
+        }
+        if (!bl2) {
+            throw new o("commands.save-off.alreadyOff", new Object[0]);
+        }
+        u.a(az2, (t)this, "commands.save.disabled", new Object[0]);
+    }
+}
+

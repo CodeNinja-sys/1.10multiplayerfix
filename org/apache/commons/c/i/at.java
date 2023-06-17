@@ -1,0 +1,25 @@
+/*
+ * Decompiled with CFR 0.150.
+ */
+package org.apache.commons.c.i;
+
+import org.apache.commons.c.i.ap;
+
+final class at
+extends ap {
+    @Override
+    boolean a() {
+        return true;
+    }
+
+    @Override
+    boolean b() {
+        return false;
+    }
+
+    @Override
+    boolean c() {
+        return true;
+    }
+}
+
